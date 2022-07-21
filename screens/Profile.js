@@ -30,7 +30,7 @@ const Profile = ({navigation}) => {
   const [filePath, setFilePath] = useState(undefined);
 
   const requestCameraPermission = async () => {
-    console.log('hello world new commit');
+
     if (Platform.OS === 'android') {
       try {
         const granted = await PermissionsAndroid.request(
